@@ -1,0 +1,198 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: rgb(5, 136, 33);
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.pagination-nav__item {
+  padding: 8px 12px;
+  font-size: 14px;
+  max-width: 70px;
+}
+
+.pagination-nav__link {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+
+.fil{
+  margin-left: 15%;
+}
+
+.content{
+  
+}
+
+.tieude{
+  color: rgb(62, 170, 62);
+  text-align: center;
+  position: relative;
+}
+.tieude>img{
+  width: 9%;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 5px;
+  border-radius: 30px;
+}
+
+.details_b_Ee{
+  width: 115%;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+}
+
+.custom-hr {
+  height: 2px;
+  width: 115%;
+  background-color: #007ACC; /* xanh dương */
+  margin: 16px auto;
+  border-radius: 2px;
+}
+
+.navbar__brand {
+    margin-right: -1px;
+
+}
+
+.hero--primary{
+  background-image: url("/img/wall.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.footer {
+    background-color: #000078;
+}
+
+.footer--dark {
+    background-color: #000078;
+}
+
+html[data-theme='dark']{
+    --ifm-color-emphasis-0: white;
+}
+
+.features_t9lD--dark{
+  color: black;
+}
+
+.footer {
+  background: #284666;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.columns div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.row.footer__links{
+  display: flex;
+  width: 170%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.featureCard_QAQr {
+    color: var(--ifm-color-card);
+}
+
+.features_t9lD {
+    background: var(--ifm-background-color) !important;
+    
+}
+
+:root{
+  --ifm-color-card-dark: white;
+   --ifm-color-card: black;
+}
+
+.footer__item>a>svg {
+  display: none;
+}
+
+.footer__item>a{
+  color: white;
+}
+
+.footer__item>a:hover{
+  color: rgb(9, 9, 252);
+
+}
+
+.row{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 80%;
+}
+
+.features_t9lD .container{
+  display: flex;
+  margin: 0;
+  margin-left: 5%;
+
+}
+
+.features_t9lD .row .col{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sạch hơn */
+  cursor: pointer;
+}
+
+.features_t9lD .row .col:hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: translateY(5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
