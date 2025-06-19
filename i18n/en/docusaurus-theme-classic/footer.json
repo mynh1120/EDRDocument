@@ -1,0 +1,14 @@
+{
+  "link.title.NCSS": {
+    "message": "NCSS",
+    "description": "The title of the footer links column with title=NCSS in the footer"
+  },
+  "link.title.Thông tin liên hệ": {
+    "message": "Thông tin liên hệ",
+    "description": "The title of the footer links column with title=Thông tin liên hệ in the footer"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 My EDR, Inc. Built by NCS.",
+    "description": "The footer copyright"
+  }
+}

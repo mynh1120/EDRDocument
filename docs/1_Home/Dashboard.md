@@ -6,7 +6,7 @@ sidebar_position: 1
 <div class="content">
 
 # Giao diện trang chính
-<h3>1. Giao diện đăng nhập của EDR</h3>
+<h3>1. Giao diện đăng nhập của CyberAI EDR</h3>
 <p align="center">
 <img src="/img/dashboard/login.png" alt="Menu EDR" />
 </p>
@@ -16,7 +16,7 @@ Giao diện trang đăng nhập gồm:
 
 Username: Tài khoản 
 
-Passwork: Mật khẩu
+Password: Mật khẩu
 
 Nút Login: Đăng nhập
 

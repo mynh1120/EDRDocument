@@ -1,0 +1,100 @@
+.y-scroll-hidden {
+  overflow-y: scroll;      /* vẫn cho cuộn */
+  scrollbar-width: none;   /* Firefox */
+}
+
+.y-scroll-hidden::-webkit-scrollbar {
+  display: none;           /* Chrome, Safari */
+}
+ 
+ 
+ .sb {
+      width: 16%;
+      background-color: transparent;
+      color: white;
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      flex-shrink: 0;
+      border-right: 1px solid #dadde1;
+      height: 100%;
+ }
+
+ 
+.sb li > ul.sub-menu {
+  margin-top: 6px;
+  margin-left: 10px; /* thụt lề mục con */
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+}
+
+  .sb h2 {
+      margin-top: 0;
+      font-size: 24px;
+      text-align: center;
+ }
+  .sb ul {
+      list-style-type: none;
+      padding: 0;
+ }
+  .sb ul li {
+      margin: 10px 0;
+ }
+  .sb ul li a {
+      color: #4B4B4B;
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      padding: 10px;
+      cursor: pointer;
+ }
+  .sb ul li a:hover {
+      background-color: #F2F2F2;
+      color: #22b91d;
+      cursor: pointer;
+      border-radius: 4px;
+ }
+  .sub-menu {
+      display: none;
+      padding-left: 20px;
+ }
+  .sub-menu.active {
+      display: block;
+ }
+  .sub-menu li a {
+      font-size: 16px;
+      padding: 8px;
+ }
+  .menu-toggle {
+      cursor: pointer;
+ }
+  .ct {
+    min-height: 100vh;
+      margin-left: 60px;
+      padding: 10px;
+      flex: 1;
+ }
+  .ct h1 {
+      margin-top: -25px;
+ }
+  .ct-section {
+      display: none;
+ }
+  .ct-section.active {
+      display: block;
+  }
+
+.con{
+    display: flex;
+    align-items: stretch;   
+    min-height: 100vh;
+    position: relative;
+}
+
+.__docusaurus_skipToContent_fallback{
+    overflow: hidden;
+}

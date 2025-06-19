@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # 1. Màn hình Reporting
 
-## 1.1. Mục đích của màn hình “Reporting”
+## 1.1. Mục đích của “Reporting”
 Đây là nơi quản lý và truy cập các báo cáo (reports) đã được hệ thống sinh ra. Những báo cáo này thường chứa thông tin cấu hình, trạng thái agent, kết quả phân tích bảo mật hoặc đánh giá tuân thủ (compliance).
 
 ## 1.2. Chức năng chính của giao diện

@@ -1,18 +1,19 @@
 ---
+ID: Events
 title: Events
 sidebar_position: 3
 ---
 
 # Màn hình Events
 
-**Chức năng:** Màn hình quản lý Events cho nhìn tổng quát số lượng các sự kiện thông kê theo nguồn phát sinh và loại sự kiện
+**Chức năng:** Màn hình quản lý Event cho nhìn tổng quát số lượng các sự kiện thông kê theo nguồn phát sinh và loại sự kiện
 - Thành phần bao gồm: 
     + Biểu đồ thống kê số lượng sự kiện theo thời gian.
     + Bảng thông kê thông tin chi tiết của từng sự kiện.
 
 ## 1. Biểu đồ thống kê
 
-- **Chức năng:** Hiển thị số lượng sự kiện (event logs) được ghi nhận trong khoảng thời gian được chọn.
+- **Chức năng:** Hiển thị số lượng sự kiện (Event logs) được ghi nhận trong khoảng thời gian được chọn.
 
 ### 1.1. Tính năng lọc
 
@@ -22,7 +23,7 @@ sidebar_position: 3
 2. Operator: điều kiện so sánh
 3. Value: giá trị tìm kiếm
 
-### 1.2. Tính tìm kiếm
+### 1.2. Tính năng tìm kiếm
 
 ![alt](/img/events-opensearch.png)
 
@@ -86,7 +87,7 @@ sidebar_position: 3
 
 ![alt](/img/eventrefreshdetail.png)
 
-- Số lượng events hiển thị trên mỗi 
+- Số lượng events hiển thị trên mỗi trang
 
 ![alt](/img/eventseachpage.png)
 

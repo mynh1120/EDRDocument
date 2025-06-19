@@ -12,8 +12,8 @@ sidebar_position: 1
 
 - **Công cụ giúp quản trị viện trực quan trong việc giám sát và xử lý tấn công:**
 
-1. <a href="https://www.google.com">Alert</a>
-2. <a href="https://www.google.com">Events</a>
-3. <a href="https://www.google.com">Incidents</a>
+1. <a href="/docs/Investigate/Alerts">Alert</a>
+2. <a href="/docs/Investigate/Events">Events</a>
+3. <a href="/docs/Investigate/Incidents">Incidents</a>
 
 ![alt](/img/investigate.png)

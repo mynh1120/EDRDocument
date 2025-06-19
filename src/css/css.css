@@ -1,12 +1,56 @@
-.red{
-    color: red;
+.col--8 {
+--ifm-col-width: 150vh;
 }
-.orange{
-    color: orangered;
+
+.rowcard1{
+  display: flex;
+  width: 100%;
 }
-.yellow{
-    color: yellow;
+
+.cont{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      width: 100%;
+      margin-bottom: 3%;
 }
-.green{
-    color: aqua;
+
+.card {
+      flex: 1;
+      padding: 20px;
+      border-radius: 8px;
+      border-bottom: 4px solid;
+      border-image: linear-gradient(to left, limegreen, blue) 1;
+      margin: 0 20px;
+    }
+
+.card h2 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+.card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+.card li {
+      margin-bottom: 12px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+.card li a{
+    
+}
+
+.card li a:hover{
+    color: blue;
+}
+
+.card li::before {
+      content: "┃";
+      color: limegreen;
+      margin-right: 8px;
 }

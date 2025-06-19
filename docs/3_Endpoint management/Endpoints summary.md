@@ -4,7 +4,7 @@ title: Endpoints summary
 ---
 # Endpoints summary
 
-<h3>1. Giao diện chính trang Endpoints summary</h3>
+## 1. Giao diện chính trang Endpoints summary
 
 **Chức năng:** Hiển thị thông tin tổng quan về trạng thái các tác nhân (agents) trong hệ thống.
 
@@ -17,9 +17,9 @@ Giao diện gồm 2 thành chính:
 - Phần biểu đồ
 - Phần bảng chi tiết
 
-<h3>2. Phần biểu đồ</h3>
+## 2. Phần biểu đồ
 
-<p><b>2.1. Agent status</b></p>
+### 2.1. Agent status
 
 Là biểu đồ tròn chia ra trạng thái các agent
 
@@ -40,7 +40,7 @@ Click vào trạng thái để xem các agent đó dưới bảng chi tiết
 <img src="/img/Endpoints_summary/vdas.png" alt="Menu EDR" />
 </p>
 
-<p><b>2.2. Top 5 OS</b></p>
+### 2.2. Top 5 OS
 
 Mục này thể hiện số lượng của 5 hệ điều hành tham gia server
 
@@ -54,7 +54,7 @@ Chi tiết gồm:
 - Ubuntu: Hệ điều hành Ubuntu
 - Windows: Hệ điều hành window
 
-<p><b>2.3. Top 5 groups</b></p>
+### 2.3. Top 5 groups
 
 Biểu đồ thể hiện top 5 nhóm mà các agent tham gia
 
@@ -63,9 +63,9 @@ Biểu đồ thể hiện top 5 nhóm mà các agent tham gia
 </p>
 <br />
 
-<h3>3. Phần bảng chi tiết</h3>
+## 3. Phần bảng chi tiết
 
-<p><b>3.1. Phần đầu bảng</b></p>
+### 3.1. Phần đầu bảng
 
 <p align="center">
 <img src="/img/Endpoints_summary/head.png" alt="Menu EDR" />
@@ -212,7 +212,7 @@ Các ô tích là các phần đang hiển thị, ngược lại là chưa. Clic
       </tr>
       <tr>
       <td>Version</td>
-      <td>Phiên bản EDR hiện tại</td>
+      <td>Phiên bản CyberAI EDR hiện tại</td>
       </tr>
       <tr>
       <td>Status</td>
@@ -239,7 +239,7 @@ Các ô tích là các phần đang hiển thị, ngược lại là chưa. Clic
 </table>
 <br />
 
-<p><b>3.2. Phần thanh search</b></p>
+### 3.2. Phần thanh search
 
 Thanh search dùng để tạo các bộ lọc tìm kiếm ở bảng
 
@@ -364,9 +364,9 @@ Cuối cùng viết giá trị vào để lọc. Ví dụ cần lọc theo tên 
 <img src="/img/Endpoints_summary/vdf.png" alt="Menu EDR" />
 </p>
 
-<p><b>3.3. Các tương tác phần Actions</b></p>
+### 3.3. Các tương tác phần Actions
 
-<p>- View agent details</p>
+#### 3.3.1. View agent details
 
 Click vào biểu tượng con mắt 👁️ trong phần actions của 1 agent để xem thông tin chi tiết về agent đó
 
@@ -382,7 +382,7 @@ Giao diện chính của trang View agent details
 
 Các mục trong trang:
 
-- <b>Risk score</b>
+#### a) <b>Risk score</b>
 
 Riskscore thể hiển điểm số rủi ro, mức độ rủi ro (Risk score level) và biểu đồ thống kê biến động điểm số rủi ro theo thời gian
 
@@ -391,7 +391,7 @@ Riskscore thể hiển điểm số rủi ro, mức độ rủi ro (Risk score l
 </p>
 <br />
 
-- <b>Basic information</b>
+#### b)<b>Basic information</b>
 
 Mục Basic information hiển thị tất cả thông tin cơ bản của agent
 
@@ -427,7 +427,7 @@ Các hạng mục thông tin gồm:
     </tr>
     <tr>
       <td>Version</td>
-      <td>Phiên bản EDR đang dùng</td>
+      <td>Phiên bản CyberAI EDR đang dùng</td>
     </tr>
     <tr>
       <td>Operating system</td>
@@ -545,56 +545,56 @@ Chi tiết các thông tin:
 </table>
 <br />
 
-- <b>Processes</b>
+ #### a)<b>Processes</b>
 
-Mục này hiển thị giao diện chi tiết về các quy trình (Processes) đang chạy
+  Mục này hiển thị giao diện chi tiết về các quy trình (Processes) đang chạy
 
-<p align="center">
-<img src="/img/Endpoints_summary/process.png" alt="Menu EDR" />
-</p>
+  <p align="center">
+  <img src="/img/Endpoints_summary/process.png" alt="Menu EDR" />
+  </p>
 
-<table class="">
-  <thead> 
-    <tr>
-      <th>Thành phần</th>
-      <th>Ý nghĩa</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Name</td>
-      <td>Tên tiến trình</td>
-    </tr>
-    <tr>
-      <td>PID</td>
-      <td>Id của tiến trình</td>
-    </tr>
-    <tr>
-      <td>Parent PID</td>
-      <td>Id của tiến trình cha</td>
+  <table class="">
+    <thead> 
+      <tr>
+        <th>Thành phần</th>
+        <th>Ý nghĩa</th>
       </tr>
-    <tr>
-      <td>VM size</td>
-      <td>Kích thước bộ nhớ ảo</td>
-    </tr>
-    <tr>
-      <td>Priority</td>
-      <td>Số thể hiện mức độ ưu tiên của quy trình</td>
-    </tr>
-    <tr>
-      <td>NLWP</td>
-      <td>Số lượng luồng</td>
-    </tr>
-    <tr>
-      <td>Command</td>
-      <td>Lệnh, đường dẫn thực thi quy trình</td>
-    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Name</td>
+        <td>Tên tiến trình</td>
+      </tr>
+      <tr>
+        <td>PID</td>
+        <td>Id của tiến trình</td>
+      </tr>
+      <tr>
+        <td>Parent PID</td>
+        <td>Id của tiến trình cha</td>
+        </tr>
+      <tr>
+        <td>VM size</td>
+        <td>Kích thước bộ nhớ ảo</td>
+      </tr>
+      <tr>
+        <td>Priority</td>
+        <td>Số thể hiện mức độ ưu tiên của quy trình</td>
+      </tr>
+      <tr>
+        <td>NLWP</td>
+        <td>Số lượng luồng</td>
+      </tr>
+      <tr>
+        <td>Command</td>
+        <td>Lệnh, đường dẫn thực thi quy trình</td>
+      </tr>
 
-  </tbody>
-</table>
+    </tbody>
+  </table>
 <br />
 
-- <b>Network interfaces</b>
+#### b)<b>Network interfaces</b>
 
 Hiển thị danh sách các giao diện mạng (Network Interfaces) của máy
 
@@ -637,7 +637,7 @@ Chi tiết các thành phần:
 </table>
 <br />
 
-- <b>Network ports</b>
+#### c)<b>Network ports</b>
 
 Phần này hiển thị giao diện danh sách các cổng mạng (Network Ports) đang hoạt động trên máy
 
@@ -680,7 +680,7 @@ Chi tiết các thành phần
 </table>
 <br />
 
-- <b>Network setting</b>
+#### d)<b>Network setting</b>
 
 Phần này hiển thị giao diện danh sách các cài đặt mạng (Network Settings) của máy
 
@@ -723,13 +723,13 @@ Các thành phần chi tiết:
 </table>
 <br />
 
-- <b>Packages</b>
+ #### e)<b>Packages</b>
 
-Phần hiển thị giao diện danh sách các gói phần mềm (Packages) được cài đặt trên máy
+  Phần hiển thị giao diện danh sách các gói phần mềm (Packages) được cài đặt trên máy
 
-<p align="center">
-<img src="/img/Endpoints_summary/package.png" alt="Menu EDR" />
-</p>
+  <p align="center">
+  <img src="/img/Endpoints_summary/package.png" alt="Menu EDR" />
+  </p>
 
 Chi tiết các thành phần:
 
@@ -761,6 +761,67 @@ Chi tiết các thành phần:
   </tbody>
 </table>
 <br />
+
+- <b>Live command</b>
+
+Mục đích: Cho phép quản trị viên thực thi các lệnh trực tiếp trên các máy tính (agent) được giám sát một cách tức thời từ giao diện quản lý trung tâm
+<p align="center"><img src="/img/Endpoints_summary/livecmd.png" alt="Menu EDR" /></p>
+
+Tính năng Live Command gồm 2 phần chính:
+1. Command
+
+
+-Start Session: Nhấn để bắt đầu kết nối với agent.
+<p align="center">
+  <img src="/img/live-command2.jpg" alt="Live Command UI" width="1200"/>
+</p>
+-Khu vực hiển thị lệnh: 
+  - Người dùng nhập lệnh tại đây.
+  - Nhấn **Enter** để thực thi.
+  - Kết quả sẽ hiển thị ngay bên dưới dòng lệnh, tương tự Command Prompt trên Windows.
+- **Copy**: Nhấn để sao chép lệnh đã nhập (thường dùng để lấy dữ liệu phản hồi từ agent).
+- **Stop Session**: Ngắt kết nối với agent và kết thúc phiên làm việc Live Command.
+
+2. History
+
+-Chức năng: Hiển thị bảng lịch sử các phiên sử dụng Live Command, bao gồm:
+  - Thời gian bắt đầu/kết thúc
+  - Các lệnh đã thực thi
+  - Người thực hiện
+
+<p align="center">
+  <img src="/img/live-command3.png" alt="Live Command UI" width="1200"/>
+</p>
+
+- **Thông tin hiển thị**:
+  - **Search detail history**: Cho phép tìm kiếm theo nội dung chi tiết trong trường `Detail`.
+  - **Time**: Hiển thị thời điểm các hành động diễn ra, sắp xếp theo thứ tự từ mới đến cũ.
+  - **Executed by**: Tên người dùng đã thực hiện hành động.
+  - **Action**: Loại hành động thực hiện trên tab Live Command (Start, Execute, Stop...).
+  - **Detail**: Câu lệnh hoặc nội dung cụ thể đã được thực hiện.
+
+---
+
+Các bước thực hiện
+
+Bước 1:
+
+Từ màn hình `Endpoint Management`, chọn **Endpoint summary** và nhấp vào tên agent cần thao tác để mở màn hình chi tiết.
+
+Bước 2:
+
+<p align="center">
+<img src="/img/live-command4.png" alt="Live Command UI" width="1200"/>
+</p>
+Chọn tab **Live Command**, sau đó nhấn **Start Session**.
+
+- Hệ thống sẽ tiến hành kết nối tới agent.
+- Khi kết nối thành công, khu vực nhập lệnh sẽ xuất hiện để người dùng thao tác.
+
+⚠️ **Lưu ý**: Nút **Start Session** chỉ khả dụng khi agent đang ở trạng thái **Active**.
+
+<br />
+
 
 <p>- All options</p>
 

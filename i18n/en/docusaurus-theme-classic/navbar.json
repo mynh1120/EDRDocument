@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "Logoedr",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Giới thiệu phần mềm EDR": {
+    "message": "Giới thiệu phần mềm EDR",
+    "description": "Navbar item with label Giới thiệu phần mềm EDR"
+  },
+  "item.label.Hướng dẫn sử dụng": {
+    "message": "Hướng dẫn sử dụng",
+    "description": "Navbar item with label Hướng dẫn sử dụng"
+  }
+}

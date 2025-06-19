@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/iconpage/ic1.png').default,
     description: (
       <>
-        Giao diện thân thiện, dễ sử dụng. Tính năng mạnh mẽ và dễ dàng
+        Thống kê và phân loại các thiết bị trong hệ thống theo mức độ rủi ro.
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/iconpage/ic2.png').default,
     description: (
       <>
-        EDR dùng để phát hiện và loại bỏ các phần mềm độc hại hoặc bất kỳ hoạt động khả nghi nào khác trên mạng
+        Ngăn chặn các cuộc tấn công trước khi chúng xảy ra hoặc gây thiệt hại.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/iconpage/ic3.png').default,
     description: (
       <>
-        Chúng tôi luôn sẵn sàng hỗ trợ nếu gặp bất kì trục trặc hay khó khăn nào với phần mềm
+        Phân tích hành vi, giúp phát hiện kịp thời các hành vi bất thường, tấn công tinh vi hoặc dấu hiệu xâm nhập.
       </>
     ),
   },
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/iconpage/ic4.png').default,
     description: (
       <>
-        Chúng tôi luôn sẵn sàng hỗ trợ nếu gặp bất kì trục trặc hay khó khăn nào với phần mềm
+        Nhanh chóng phản ứng và xử lý sự cố khi có hành vi tấn công hoặc xâm nhập xảy ra. 
       </>
     ),
   },
@@ -50,7 +50,7 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/iconpage/ic5.png').default,
     description: (
       <>
-        Chúng tôi luôn sẵn sàng hỗ trợ nếu gặp bất kì trục trặc hay khó khăn nào với phần mềm
+        Khôi phục lại hệ thống, dữ liệu và hoạt động bình thường sau sự cố bảo mật.
       </>
     ),
   },
@@ -77,7 +77,7 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className="row row--12 text--center">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

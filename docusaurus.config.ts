@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My EDR',
+  title: 'CyberAI EDR',
   tagline: 'Endpoint Detection and Response',
   favicon: 'img/favicon.ico',
 
@@ -33,7 +33,15 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'vi'], // thêm ngôn ngữ bạn muốn
+    localeConfigs: {
+    en: {
+      label: 'English',
+    },
+    vi: {
+      label: 'Tiếng Việt',
+    },
+    },
   },
 
   presets: [
@@ -80,7 +88,7 @@ const config: Config = {
           position: 'left',
           label: 'Giới thiệu phần mềm EDR',
         },
-        {to: '/hdsd',
+        {to: '/hdsdnew',
           label: 'Hướng dẫn sử dụng',
           position: 'left'},
       ],

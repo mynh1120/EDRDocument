@@ -1,4 +1,5 @@
 ---
+ID: Alerts
 title: Alerts
 sidebar_position: 2
 ---
@@ -89,9 +90,9 @@ sidebar_position: 2
 | MITRE TACTIC        | Cho biết mục tiêu của hành vi bị phát hiện                               |
 | ACTION              | Hành động có thể thực hiện – xem chi tiết.                               |
 
-### 2.2. Nút "Create new incident"
+### 2.2. Tạo sự cố - "Create new incident"
 
-- **Mục đích:** Tạo Incident cho Alert tương ứng 
+- **Chức năng:** Tạo Incident cho Alert tương ứng 
 
 - Các bước tạo incident
 
@@ -141,8 +142,8 @@ Chọn agent đang được gán --> Ấn "Unassign"
 
 <p>**Tình huống:** Khi có Alert người quản trị sẽ đánh giá tạo Incident để tự xử lý hoặc phân công người xử lý sự cố.</p>
 
-### 2.3. Nút "Assign Incident"
-- **Mục đích:** Gán Alert cho sự cố tướng ứng
+### 2.3. Gán cảnh báo cho sự cố - "Assign Incident"
+- **Chức năng:** Gán Alert cho sự cố tướng ứng
 
 - Các bước gán alert cho incident
 
@@ -156,8 +157,8 @@ Chọn agent đang được gán --> Ấn "Unassign"
 
 <p>**Tình huống:** Trước đó, có Alert thiết bị nhiễm virus ransomware và được tạo một Incedent (sự cố) có tên "Virus ransomware" sau đó có thêm Alert thiết bị khác cũng nhiễm virus ransomware người quản trị có thể gán các Alert mới cho sự cố có tên "Virus ransomware" được tạo từ trước.</p>
 
-### 2.4. Nút "Close"
-- **Mục đích:** Đóng alert đã hoàn thành hoặc alert được xác nhận là sai. 
+### 2.4. Đóng cảnh báo - "Close"
+- **Chức năng:** Đóng alert đã hoàn thành hoặc alert được xác nhận là sai. 
 
 - **Thao tác:** Chọn alert cần đóng --> Ấn "Close" 
 
@@ -165,16 +166,16 @@ Chọn agent đang được gán --> Ấn "Unassign"
 
 <p>**Tình huống:** Khi Alert đã được xử lý hoặc quản trị viên xác nhận alert là giả tình huống không có gì nguy hại có thể đóng và báo bên đội kỹ thuật sau lần sau bỏ qua nhưng trường hợp đó.</p>
 
-### 2.4. Nút "Refresh"
+### 2.4. Làm mới danh sách cảnh báo - "Refresh"
 
-- **Mục đích:** tải lại thông tin danh sách các alert.
+- **Chức năng:** tải lại thông tin danh sách các alert.
 
 ![alt](/img/RefreshAlertList.png)
 
 <p>**Tình huống:** Trong một khoảng thời gian nhất định máy không được sử dụng màn hình chưa làm mới quản trị viên muốn làm mới theo dõi thông tin ngay ta thì ấn "Refresh".</p>
 
-### 2.5. Nút "More"
-- **Mục đích:** Đưa ra phản ứng nhanh với máy xuất hiện Alert
+### 2.5. Các nút action 
+- **Chức năng:** Đưa ra phản ứng nhanh với máy xuất hiện Alert
 <p> Khi có xuất hiện Alert phần mềm cho phép quản trị viên thao tác nhanh thao tác nhanh ép buộc tắt máy hoặc cách lý máy có Alert nhằm đảm bảo an toàn cho hệ thống.</p>
 
 ![alt](/img/buttonmore.png)
@@ -191,8 +192,8 @@ Chọn agent đang được gán --> Ấn "Unassign"
 
 <p>**Tình huống:** trong trường hợp có cảnh báo máy đó có gây ra cảnh báo có thể ảnh hưởng tới hệ thống quan trị viên sẽ thể đưa ra quyết định tắt máy hay cách ly máy đó khỏi hệ thống khi đã kiểm tra và các nhận an toàn có thể mở lại Alerts đã đóng.</p>
 
-### 2.6. Biểu tượng "Con mắt"
-- **Mục đích:** Xem chi tiết của Alert dưới dạng table hoặc file .json
+### 2.6. Xem chi thông tin chi tiết của cảnh báo
+- **Chức năng:** Xem chi tiết của Alert dưới dạng table hoặc file .json
 
 ![alt](/img/AlertDetail.png)
 

@@ -19,9 +19,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
      
       </div>
-
       
-
     </header>
   );
 }
@@ -39,4 +37,5 @@ export default function Home(): ReactNode {
     </Layout>
   );
 }
+
 

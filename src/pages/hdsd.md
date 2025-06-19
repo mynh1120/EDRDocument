@@ -159,6 +159,7 @@ Sau khi xác nhận alert, click vào chọn cảnh báo chọn More, click Isol
     + Description: mô tả về tác vụ (không bắt buộc nhập)
     + Upload file: đính kèm tệp liên quan đến task (không bắt buộc nhập)
     + Task Detail: file json gồm các hành động của tác vụ (bắt buộc nhập)
+Thao khảo giới thiệu (gán link task detail) để viết task detail cho tác vụ
 
 ![alt](/img/taskinfor.png)
 
@@ -331,14 +332,46 @@ Truy xét phần Rule description, trong đó có thể mô tả hành vi, tác 
 
 </details>
 
+
+Vai trò người dùng thực hiện (User Role Involved)
+Tình huống ví dụ / minh họa (Example Scenario / Screenshot)
+
 <details>
 <summary><strong>11. Tạo rule để sớm phát hiện hành vi bất thường</strong></summary>
 
-- **Mục đích:** Hệ thống phát phát sinh cảnh báo (alert) khi có agent trong hệ thống thực hiện hành vi vi phạm rule đã tạo. 
+**Mục tiêu:** Tạo ra các quy tắc nếu trong hệ thống có máy trạm vi phạm quy tắc sẽ phát sinh cảnh báo thông báo cho người quản trị. 
+
+**Mô tả chi tiết:** 
+File rule là nơi định nghĩa điều kiện và hành vi mà EDR sẽ kiểm tra trên các log thu thập từ endpoint (máy tính, máy chủ,...). Nếu log khớp với rule, EDR sẽ:
+  + Sinh cảnh báo (alert)
+  + Gán mức độ nghiêm trọng (level)
+  + Gắn nhãn (group, category)
+  + Thực hiện hành động (response, isolate,... nếu có tích hợp)
+
+**Thành phần liên quan:** CyberAI agent, rule, decoder, alert.
+
+**Luồng xử lý:** 
+
+<p align="center"><img src="/img/flowchartrule.png" alt="lowchart Rule" /></p>
+
+**Vai trò người dùng thực hiện:** administrator
+
+**Tình huống ví dụ:** Một trang web "forexample.com" là trang web không an toàn người quản trị sẽ tạo một file quy tắc nếu có máy trạm truy cập trang "forexample.com" sẽ phát sinh cảnh báo ở phần màn hình "Alerts" hay gửi thông báo cho quản trị viên qua slack, gmail,... kênh kết nối với CyberAI EDR.
+
+```xml
+<group name="web-log,forexample-monitor,">
+  <rule id="100010" level="10">
+    <decoded_as>json</decoded_as>
+    <field name="url">.*forexample\.com.*</field>
+    <description>Truy cập vào trang web forexample.com</description>
+    <group>access,web,</group>
+  </rule>
+</group>
+```
 
 **Cách thực hiện:** 
 
-**Cách 1 Thêm thủ công:**
+***Cách 1 Thêm thủ công:***
 
 <p>**Bước 1:** Ở màn hình "Rules" chọn "Manage rules files"</p>
 
@@ -348,7 +381,7 @@ Truy xét phần Rule description, trong đó có thể mô tả hành vi, tác 
 
 ![alt text](/img/rulethucong.png)
 
-**Cách 2 Import bằng file có sẵn:**
+***Cách 2 Import bằng file có sẵn:***
 
 <p>**Bước 1:** Ở màn hình "Rules" chọn "Manage rules files"</p>
 
@@ -358,7 +391,7 @@ Truy xét phần Rule description, trong đó có thể mô tả hành vi, tác 
 
 ![alt text](/img/importfiles.png)
 
-<p>Lưu ý: khi tắt và mở chức năng overwrite là cho không cho phép hoặc cho phép ghi đè file upload trùng tên với file rule có sẵn trên hệ thống.</p>
-
 <p align="center"><img src="/img/overwrite.png" alt="Menu EDR" /></p>
+
+<p>***Lưu ý:*** khi tắt và mở chức năng overwrite là cho không cho phép hoặc cho phép ghi đè file upload trùng tên với file rule có sẵn trên hệ thống.</p>
 </details>

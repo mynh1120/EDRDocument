@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Home": {
+    "message": "Home",
+    "description": "The label for category Home in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Investigate": {
+    "message": "Investigate",
+    "description": "The label for category Investigate in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Endpoint management": {
+    "message": "Endpoint management",
+    "description": "The label for category Endpoint management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Response": {
+    "message": "Response",
+    "description": "The label for category Response in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Server Management": {
+    "message": "Server Management",
+    "description": "The label for category Server Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setting": {
+    "message": "Setting",
+    "description": "The label for category Setting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Index management": {
+    "message": "Index management",
+    "description": "The label for category Index management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sercurity": {
+    "message": "Sercurity",
+    "description": "The label for category Sercurity in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dashboard management": {
+    "message": "Dashboard management",
+    "description": "The label for category Dashboard management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.App setting": {
+    "message": "App setting",
+    "description": "The label for category App setting in sidebar tutorialSidebar"
+  }
+}

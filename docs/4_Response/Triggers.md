@@ -50,7 +50,7 @@ sidebar_position: 2
 | **Associations with composite monitors** | Số lượng liên kết với monitor tổ hợp.                          |
 | **Actions (3 chấm)**                     | Thao tác riêng với từng monitor (enable, disable, delete).     |
 
-### 2.1. Tạo 1 bộ giám sát (monitor)
+### 2.1. Tạo bộ giám sát (monitor)
 
 **Bước 1:** Nhập thông tin Monitor details
 - Monitor name: Nhập tên cho monitor mới.
